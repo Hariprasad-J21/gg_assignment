@@ -1,0 +1,85 @@
+.doc{
+   padding-left: 60px;
+   padding-right: 60px;
+   position: relative;
+}
+.text h1{
+    position: absolute;
+    margin-top: 160px;
+    font-size:60px;
+    padding-left: 60px;
+}
+.text p{
+    margin-top:300px;
+    position:absolute;
+    padding-left: 60px;
+}
+
+.click{
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 20px 40px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        position: absolute;
+        margin-top: 390px;
+        margin-left: 60px;
+        border-radius: 10px;
+        cursor: pointer;
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    }
+    .yt_header{
+        margin-top: 400px;
+        position:absolute;
+        padding-left: 300px;
+    }
+    .form_start{
+        display: flex;
+        position:absolute;
+    }
+    .custom-form {
+        position: absolute;
+        z-index: 15;
+        background: #fff;
+        padding: 20px;
+        border-radius: 15px;
+        width: 70%;
+    }
+
+    .middle-form {
+        border: 1px solid rgb(1, 1, 1);
+        width:50%;
+        position:absolute;
+        left:22%;
+        top: 87%;
+        padding-left: 20px;
+        background-color: white;
+        border-radius: 10px;
+        margin-left: 50px;
+        display: flex;
+    
+    }
+
+      .row{
+        padding: 15px;
+          }
+    #one{
+        height: 20px;
+    }
+
+    .form-row1{
+        display: flex;
+      }
+      .form-row2{
+        display: flex;
+      }
+      .form{
+        background-color: white;
+        padding: 5px;
+        border-radius: 5px;
+        position: absolute 0;
+      }
+

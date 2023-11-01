@@ -1,0 +1,33 @@
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav{
+    overflow:hidden;
+    background-color:white;
+    padding: 20px;
+}
+
+.topnav a{
+    float:left;
+    color:black;
+    text-align: end;
+    padding:14 px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    padding:14px 16px;
+}
+.header-container{
+    display: flex;
+}
+
+.topnav a:hover{
+    background-color: aliceblue;
+    color:red;
+}
+
+.doctimage{
+    height: 794px;
+    width: 1168px;
+}
