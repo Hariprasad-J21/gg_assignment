@@ -1,3 +1,18 @@
+#header-icon{
+  font-size: small;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  background-color: rgb(241, 241, 241);
+}
+#gg-icon{
+  padding-top: 1%;
+  height: 50px;
+  width: 12%;
+}
+body{
+  font-family: 'Inter', sans-serif;
+}
 .doc{
    padding-left: 60px;
    padding-right: 60px;
@@ -77,9 +92,354 @@
         display: flex;
       }
       .form{
+        position: absolute;
+        padding: 20px;
+        border-radius: 15px;
+        border: solid white;
         background-color: white;
-        padding: 5px;
-        border-radius: 5px;
-        position: absolute 0;
+        margin-top: -70px;
+        margin-left: 170px;
+        z-index: 99;
+        width: 70%;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+      }
+      .form-row1, .form-row2{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 15px;
       }
 
+      input{
+        width: 30%;
+        padding: 10px;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+      }
+
+      select{
+        width: 30%;
+        padding: 10px;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+      }
+
+      .book-button{
+        display: block;
+        width: 30%;
+        padding: 10px;
+        background-color: rgb(32, 189, 165);
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+      }
+
+      .spec-button{
+        display: block;
+        width: 10%;
+        padding: 10px;
+        background-color: rgb(32, 189, 165);
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        margin-left: 560px;
+      }
+.overflow{
+  position: relative;
+}
+
+      .department_inside{
+        margin-left: 37px;
+        margin-right: 37px;
+      }
+
+      .dep_images{
+        display: flex;
+        /* width:350px;
+        padding: 20px; */
+        justify-content:space-between ;
+      }
+
+      .dep_images img{
+        width:370px;
+        height:200px;
+      }
+      .dept_text{
+        display: flex;
+        justify-content: space-between;
+      }
+      .text3{
+        margin-right: 30px;
+      }
+      .text2{
+        margin-left: 20px;
+      }
+      .department{
+        margin-top: 200px;
+        margin-left: 40px;
+      }
+      .why{
+        display: flex;
+        background-color: lightblue;
+        height: 75%;
+        width:95%;
+        margin-left: 27px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+      }
+     .why_two h2{
+      width: 400px;
+      margin-right: 70px;
+      margin-top: 80px;
+     }
+     .meet1{
+      text-align: center;
+     }
+
+     .meet_doc_img{
+      display: flex;
+      justify-content:space-between;
+      margin-left: 20px;
+      margin-right: 24px;
+      text-align: center;
+     }
+     .meet_doc_img img{
+      width:270px;
+      height:300px;
+     }
+     .meet_doc_img h2 p{
+
+     }
+     #fac{
+      margin-top: 70px;
+      text-align: center;
+     }
+     .facilities{
+      display: flex;
+      height: 50%;
+      width: 50%;
+      justify-content: space-between;
+     }
+
+     .fac-img{
+      width: 350px;
+      margin: 25px;
+     }
+     #you{
+      text-align: center;
+      margin-top:30px;
+     }
+     .you{
+      display: flex;
+     }
+     .you{
+      display: flex;
+      height: 50%;
+      width: 50%;
+      justify-content: space-between;
+     }
+     .you-img{
+      width: 350px;
+      margin: 25px;
+     }
+     span{
+      color:#4CAF50
+     }
+
+     .subcontent{
+      display: flex;
+    
+     }
+     .subform{
+      display: flex;
+     }
+
+     #up-foot{
+      display: flex;
+      justify-content: space-evenly;
+      margin-top: 20px;
+    }
+     
+    #up-1{
+      font-size: smaller;
+    }
+     
+    #up-img{
+      width: 200px;
+    }
+     
+    #up-foot{
+      display: flex;
+      justify-content: space-evenly;
+      margin-top: 20px;
+    }
+     
+    #up-1{
+      font-size: smaller;
+    }
+     
+    #up-img{
+      width: 200px;
+    }
+     
+    #up2-grid{
+      display: grid;
+      grid-template-columns: auto auto;
+    }
+     
+    .up2-class{
+      text-align: center;
+      padding: 15px;
+      padding-top: 0px;
+      font-size: smaller;
+    }
+     
+    #up2-h{
+      margin-left: 16px;
+    }
+     
+    #up3-grid{
+      display: grid;
+      grid-template-columns: auto auto;
+    }
+     
+    .up3-class{
+      padding: 15px;
+      padding-top: 0px;
+      font-size: smaller;
+    }
+     
+    #up3-h{
+      margin-left: 18px;
+    }
+     
+    #foot-line{
+      position: relative;
+      z-index: 30;
+      margin-bottom: -60px;
+      margin-top: 30px;
+    }
+     
+    #foot-hr{
+      width: 85%;
+    }
+     
+    #down-foot
+    {
+      display: flex;
+      justify-content: space-evenly;
+      margin-left: 3%;
+      margin-right: 40px;
+      margin-top: 30px;
+      font-size: 11px;
+      margin-top: 80px;
+     
+    }
+    #df-1
+    {
+      padding-right: 5px;
+      display: flex;
+    }
+    #df1-p
+    {
+      margin-top: -4px;
+      padding-left: 20px;
+    }
+    #df-2
+    {
+      display: flex;
+      padding-left: 100px;
+    }
+    #df2-p
+    {
+      margin-top: -4px;
+      padding-left: 20px;
+    }
+    #df-3
+    {
+      display: flex;
+      padding-left: 100px;
+    }
+    #df3-p
+    {
+      margin-top: -4px;
+      padding-left: 20px;
+    }
+    #df-4
+    {
+      margin-left: 70px;
+      margin-top: -4px;
+    }
+    #df4-h
+    {
+      margin-top: 3px;
+    }
+    #df4-icon
+    {
+      font-size: medium;
+      margin-top: 10px;
+      padding-left: 20PX;
+    }
+
+    .int-bg{
+      background-color: rgb(218,233,246);
+      display: flex;
+      height: 550px;
+      padding-left: 20%;
+      margin-top: -220px;;
+    }
+    .sub-form {
+      display: flex;
+      align-items: center;
+      margin-left: 400px;
+    }
+     
+    .email{
+      width: 250px;
+      border: none;
+    }
+     
+    .sub-button {
+      padding: 10px 20px;
+      background-color:  rgb(32, 189, 165);
+      font-size: smaller;
+      color: white;
+      width: fit-content;
+      border: none;
+      cursor: pointer;
+    }
+     
+    .sub-content{
+      display: flex;
+      align-items: center;
+      background-color: white;
+      background-image: url(/top_header/sub.png);
+      position: absolute;
+      z-index: 1;
+      height: 180px;
+      width: 1000px;
+      border-radius: 5px;
+      margin-right: 30px;
+      margin-left: -40px;
+      padding-left: 80px;
+      margin-top: 20%;
+      left: 100px;
+    }
+     
+    #line{
+      position: relative;
+      z-index: 30;
+      margin-bottom: -60px;
+      padding-left: 0px;
+      margin-left: -340px;
+    }
+     
+    #hr{
+      width: 350px;
+    }
+    
